@@ -2,6 +2,11 @@
 	"require": {
 		"smarty/smarty": "dev-trunk",
 		"mustangostang/spyc": "0.5.*@dev",
-		"ircmaxell/password-compat": "dev-master"
-	}
+		"ircmaxell/password-compat": "dev-master",
+		"gabordemooij/redbean": "dev-master"
+	},
+
+	"autoload": {
+        "psr-4": {"Elonia\\": "game/"}
+    }
 }

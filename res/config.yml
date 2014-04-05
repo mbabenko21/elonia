@@ -1,0 +1,9 @@
+game:
+	name: Elonia
+
+smarty:
+	template: views/template
+	compile: res/compile
+	config: views/config
+	cache: res/cache
+	debug: false
