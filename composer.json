@@ -1,0 +1,7 @@
+{
+	"require": {
+		"smarty/smarty": "dev-trunk",
+		"mustangostang/spyc": "0.5.*@dev",
+		"ircmaxell/password-compat": "dev-master"
+	}
+}
