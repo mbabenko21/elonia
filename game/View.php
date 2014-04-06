@@ -15,5 +15,5 @@ class View extends \Smarty {
 		$this->cache_dir = ROOT_DIR.DIRECTORY_SEPARATOR.$config["smarty"]["cache"]."/";
 		$this->debugging = $config["smarty"]["debug"];
 	}
-
+	
 }

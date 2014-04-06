@@ -1,5 +1,20 @@
 game:
 	name: Elonia
+	db_driver: sqlite
+	day_long: 10
+	day_parts:
+		1: Ночь
+		2: Утро
+		3: День
+		4: Вечер
+
+database: 
+	sqlite:
+		dns: sqlite:elonia.dat
+		user: root
+		password:
+	mysql:
+		dns: 
 
 smarty:
 	template: views/template

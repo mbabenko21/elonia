@@ -1,5 +1,10 @@
 {extends file="base.tpl"}
 {block name="page_title"}{#base_page_title#}{/block}
+{block name="header"}
+	<div data-role="header">	
+		<h3>{#base_page_title#}, {$day_part}</h3>
+	</div>	
+{/block}
 {block name="page"}
 	<center>
 			<form action="login.php" method="POST">

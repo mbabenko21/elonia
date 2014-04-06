@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1-DEV, created on 2014-04-06 01:34:52
+<?php /* Smarty version Smarty-3.1-DEV, created on 2014-04-06 02:32:04
          compiled from "C:\xampp\www\elon.dev\views\template\site\login.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:2615153408a54aba959-11940893%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,13 +7,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '34df7daffd419aabeb225d5463dfb1b43b01f739' => 
     array (
       0 => 'C:\\xampp\\www\\elon.dev\\views\\template\\site\\login.tpl',
-      1 => 1396740891,
+      1 => 1396744322,
       2 => 'file',
     ),
     '19be20604049cf5d1028fddf86f33958e2c60a8a' => 
     array (
       0 => 'C:\\xampp\\www\\elon.dev\\views\\template\\base.tpl',
-      1 => 1396740060,
+      1 => 1396744284,
       2 => 'file',
     ),
   ),
@@ -46,12 +46,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		</head>
 		<body>
 			<div data-role="page">
-				
-					<div data-role="header">
-						<h3><?php echo $_smarty_tpl->getConfigVariable('base_page_title');?>
+					
+	<div data-role="header">	
+		<h3><?php echo $_smarty_tpl->getConfigVariable('base_page_title');?>
+, <?php echo $_smarty_tpl->tpl_vars['day_part']->value;?>
 </h3>
-					</div>
-				
+	</div>	
+
 				
 	<center>
 			<form action="login.php" method="POST">

@@ -13,11 +13,11 @@
 		</head>
 		<body>
 			<div data-role="page">
-				{block name="header"}
-					<div data-role="header">
+					{block name="header"}
+					<div data-role="header">	
 						<h3>{#base_page_title#}</h3>
-					</div>
-				{/block}
+					</div>	
+					{/block}
 				{block name="page"}{/block}
 				{block name="footer"}
 					<div data-role="footer">
