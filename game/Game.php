@@ -26,6 +26,10 @@ class Game {
 		$this->config = $config;
 	}
 
+	public function getConfig(){
+		return $this->config;
+	}
+
 	public static function getInstance() {
 		if(is_null(self::$_game)){
 			self::$_game = new self();
